@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/nathan/code/nativescript/BrewQuest2/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/background.png",
+        "source": "/home/nathan/code/nativescript/BrewQuest2/platforms/android/app/src/main/res/drawable-xxxhdpi/background.png"
+    },
+    {
+        "merged": "/home/nathan/code/nativescript/BrewQuest2/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/logo.png",
+        "source": "/home/nathan/code/nativescript/BrewQuest2/platforms/android/app/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/nathan/code/nativescript/BrewQuest2/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon.png",
+        "source": "/home/nathan/code/nativescript/BrewQuest2/platforms/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+    }
+]
