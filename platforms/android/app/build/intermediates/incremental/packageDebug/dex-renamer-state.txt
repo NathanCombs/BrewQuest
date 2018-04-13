@@ -1,4 +1,0 @@
-#Thu Apr 12 10:20:49 MDT 2018
-base.0=/home/nathan/code/nativescript/BrewQuest2/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/nathan/code/nativescript/BrewQuest2/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

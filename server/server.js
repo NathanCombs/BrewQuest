@@ -25,3 +25,11 @@ client.connect(function(err) {
       })
   }
 });
+
+app.post("/signUp" ,(req, res) => {
+  debugger;
+  console.log(req.body);
+  res.json({
+    message: "Hello. From: Server."
+  })
+})

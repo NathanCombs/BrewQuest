@@ -2,6 +2,7 @@ import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { FlexboxLayout } from "tns-core-modules/ui/layouts/flexbox-layout";
+import { NativeScriptHttpModule } from "nativescript-angular/http"
 
 import { AppComponent } from "./app.component";
 
@@ -10,7 +11,8 @@ import { AppComponent } from "./app.component";
   bootstrap: [AppComponent],
   imports: [
     NativeScriptModule,
-    NativeScriptFormsModule
+    NativeScriptFormsModule,
+    NativeScriptHttpModule
   ],
   schemas: [NO_ERRORS_SCHEMA],
 })
