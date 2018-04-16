@@ -1,0 +1,16 @@
+
+ <!-- <Page 
+    xmlns="http://www.nativescript.org/tns.xsd"
+    xmlns:maps="nativescript-google-maps-sdk"
+    >
+  <GridLayout>
+    <Label text="This can be map?"></Label>
+    <maps:mapView 
+      latitude="46.6770" 
+      longitude="111.0429"
+      zoom="5"
+      bearing="5"
+      padding="[20, 20, 20, 20]"
+         />
+  </GridLayout>
+</Page> -->

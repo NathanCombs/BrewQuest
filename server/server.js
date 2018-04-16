@@ -27,9 +27,20 @@ client.connect(function(err) {
 });
 
 app.post("/signUp" ,(req, res) => {
-  debugger;
   console.log(req.body);
-  res.json({
-    message: "Hello. From: Server."
-  })
+  if (req.body.username.length && req.body.password.length) {
+    client.query(`INSERT INTO users (username, password) VALUES ('${req.body.username}', '${req.body.password}');`)
+      .then(i => {res.json("successs")}).catch(error => {res.json(error)});
+    }
+})
+
+app.post("/login", (req, res) => {
+  console.log(req.body)
+;  client.query(`SELECT * FROM users WHERE username='${req.body.username}' AND password='${req.body.password}'`)
+    .then(i => {
+      if (!i.rows.length) {
+        res.status(400).send("unsuccessfull login")
+      } else res.json("Onward!")
+    })
+    .catch(error => {res.status(500)});
 })

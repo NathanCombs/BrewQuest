@@ -31,6 +31,14 @@
 			android:configChanges="keyboardHidden|orientation|screenSize"
 			android:theme="@style/LaunchScreenTheme">
 
+			<meta-data 
+				android:name="com.google.android.geo.API_KEY"
+            	android:value="@string/nativescript_google_maps_api_key" />
+
+			<meta-data
+    			android:name="com.google.android.gms.version"
+    			android:value="@integer/google_play_services_version" />
+
 			<meta-data android:name="SET_THEME_ON_LAUNCH" android:resource="@style/AppTheme" />
 
 			<intent-filter>
